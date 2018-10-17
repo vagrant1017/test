@@ -1,0 +1,78 @@
+*{padding: 0;margin: 0;}
+html{font-size: 10px;background-color: #efeff4;}
+
+/* 搜索导航,广告,内容分类,利民公告*/
+.nav,.banner,.category,.hot{width: 100%;}
+.banner{padding-top:4rem; box-sizing: border-box;}
+.banner img{width: 100%;}
+.category ul{width: 100%;display: flex;background-color: white;
+height: 7rem;padding-top: 1rem ;}
+.category ul li {
+    flex: 1;
+    text-align: center;list-style: none;font-size: 1rem;
+    color: #333333;
+}
+.category ul li img{width: 60%;}
+.nav{display: flex;background: #f5f5f5;height: 4rem;
+line-height: 4rem;position: fixed;z-index: 999 ;}
+.iconfontLeft,.iconfontRight{flex: 1;text-align: center;}
+.iconfontLeft .iconfont,.iconfontRight .iconfont{
+    font-size: 2.2rem;color: #979797;
+}
+.search{flex: 5;}
+.searchBox{
+    background-color: #e6e6e6;
+    height: 2.5rem;margin-top: 0.7rem;border-radius: 5px;
+    position: relative;
+}
+.search input{
+    height: 2.2rem;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top:0.2rem;
+    width: 85%;
+    right: 0;
+}
+.searchBox i{position: absolute;left: 1rem;top:-0.6rem;color: #979797;}
+.searchBox .iconfont{font-size:1.5rem;}
+.searchText{width: 100%;font-size: 1rem;}
+.notice{height: 4rem;line-height: 4rem;
+    background-color: white;position: relative;width: 95%;
+    margin: 3% auto;border-radius: 8px;}
+.notice>p{color: red;padding-left:2%;float: left;box-sizing: border-box}
+.noticeCenter{float: left;}
+.notice>a{float: right;padding-right: .5rem;box-sizing: border-box}
+.notice .line{height: 2rem;width: 0.0625rem;float: right;
+    position: absolute;top:1rem;left: 24.5rem;
+    background-color: #c7c6c6;}
+
+/* 精品任选 */
+.choose{clear: both;width: 98%;margin: 3% auto;}
+.title1{text-align: center;width: 35%;margin: 0 auto;height: 2.5rem;
+    position: relative;}
+.lineLeft{width: 3rem;border-top: 3px solid #00cc7d;display: block;
+top:.6rem;position: absolute;}
+.lineRight{width: 3rem;border-top: 3px solid #00cc7d;display: block;
+    top:.6rem;position: absolute;left: 80%;}
+.chooseText{width: 50%;height: 1.2rem;left: 30%;display: block;
+    line-height: 1.2rem;padding: 0 2%;box-sizing: border-box; background-color: #efeff4;
+position: relative;}
+.con img{width: 100%;clear: both;}
+
+/* 热卖推荐 */
+.hotSell{width: 100%;padding: 2%; display: flex;box-sizing: border-box;background-color: white;
+    border:.5rem solid #EFEFF4;}
+.hotSell .hotSell_left{flex: 1;margin-right:1rem;}
+.hotSell .hotSell_right{flex: 1.5;display: flex;flex-direction: column;border-left:.5rem solid #EFEFF4}
+
+.hotSell_right .hotSell_top{flex: 1;display: flex;flex-direction: row;border-bottom:.5rem solid #EFEFF4}
+.hotSell_top .hotSell_top_text{flex: 1;}
+.hotSell_top .hotSell_top_pic{flex: 1;padding-top: .2rem;}
+
+.hotSell_right .hotSell_bottom{flex: 1;display: flex;flex-direction: row;}
+.hotSell_bottom .hotSell_bottom_text{flex: 1;}
+.hotSell_bottom .hotSell_bottom_pic{flex: 1;padding-top: .2rem;}
+
+
+
